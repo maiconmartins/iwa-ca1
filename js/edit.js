@@ -1,11 +1,3 @@
-function resetForm() {
-    document.getElementById("Nationality").value = "";
-    document.getElementById("age").value = "";
-    document.getElementById("dream").value = "";
-    document.getElementById("NoCountry").value = "";
-    selectedRow = null;
-}
-
 function onEdit(td) {
     selectedRow = td.parentElement.parentElement;
     document.getElementById("Nationality").value = selectedRow.cells[0].innerHTML;
