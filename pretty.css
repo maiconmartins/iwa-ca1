@@ -1,23 +1,43 @@
 body > table{
-    width: 80%;
+   
+    width: 100%;background:transparent;
+    position:relative; 
+    top:100px;
+    
+   
+    
 }
+
 
 table{
     border-collapse: collapse;
+    
+  
 }
 table.list{
     width:100%;
+    position:relative; 
+     top:-165px;
+    
+     
 }
 
 td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
+  
+
 }
 tr:nth-child(even),table.list thead>tr {
     background-color: #dddddd;
 }
 
+label {
+
+    background-color: #ddd;
+    
+}
 input[type=text], input[type=number] {
     width: 100%;
     padding: 12px 20px;
